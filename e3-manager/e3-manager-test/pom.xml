@@ -13,11 +13,10 @@
   		<artifactId>e3-manager-service</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
-  	<!-- 单元测试 -->
 	<dependency>
-		<groupId>junit</groupId>
-		<artifactId>junit</artifactId>
-		<scope>test</scope>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-test</artifactId>
+	    <scope>test</scope>
 	</dependency>
   </dependencies>
 </project>

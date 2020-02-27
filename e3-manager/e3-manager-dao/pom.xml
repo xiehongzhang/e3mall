@@ -42,4 +42,16 @@
 		<artifactId>druid</artifactId>
 	</dependency>
   </dependencies>
+  <build>
+  	<!-- 使用maven插件时，如果不添加一下节点(会报错"Invalid bound statement")，编译时无法将*.xml等文件打包 -->
+  	<resources>
+  		<resource>
+  			<directory>src/main/java</directory>
+  			<includes>
+  				<include>**/*.xml</include>
+  			</includes>
+  			<filtering>false</filtering>
+  		</resource>
+  	</resources>
+  </build>
 </project>

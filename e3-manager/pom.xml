@@ -23,7 +23,7 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<configuration>
 					<path>/</path>
-					<port>8080</port>
+					<port>8081</port>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -34,6 +34,5 @@
 		<module>e3-manager-interface</module>
 		<module>e3-manager-service</module>
 		<module>e3-manager-web</module>
-		<module>e3-manager-test</module>
 	</modules>
 </project>
